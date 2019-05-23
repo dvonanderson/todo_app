@@ -1,18 +1,9 @@
 import Route from '@ember/routing/route';
+import { RouteQueryManager } from 'ember-apollo-client';
+import allTodos from './allTodos';
 
-export default Route.extend({
+export default Route.extend(RouteQueryManager, {
 	model(){
-		return [
-			{
-				id: '1',
-				title: 'the real deal',
-				description: 'learning about the real deal'
-			},
-			{
-				id: '2',
-				title: 'the other real deal',
-				description: 'learning about the other real deal'
-			}
-		]
+		return this.apollo.watchQuery({ query: allTodos }, "allTodos");
 	}
 });

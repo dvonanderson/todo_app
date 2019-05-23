@@ -1,5 +1,7 @@
-<div>
-	{{#each model as |link index|}}
-		{{todo-post index=index todo=todo}}
+<ul>
+	{{#each model as | todo | }}
+		<li>{{todo.title}}</li>
+		<li>{{todo.description}}</li>
+		<li>{{todo}}</li>
 	{{/each}}
-</div>
+</ul>

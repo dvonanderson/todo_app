@@ -3,7 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     apollo: {
-      apiURL: 'https://localhost:3000/graphql'
+      apiURL: 'http://localhost:3000/graphql'
     },
     modulePrefix: 'todo-front-end',
     podModulePrefix: 'todo-front-end/pods',
