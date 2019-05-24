@@ -1,7 +1,17 @@
 <div class="flex h-screen">
-	<div class="bg-gray-500">Users</div>
-	<div class="bg-gray-darkest">Workspace</div>
-	<div class="bg-gray-100">Messages</div>
-</div>
+	
+	<div class="bg-user-back-2 p-4 flex flex-col shadow-md">
+		{{#each model as | user|}}
+			<div class="my-2">
+				<p class="w-12 h-12 bg-white p-1 text-center borders-solid border-4 border-gray-600 shadow rounded-lg">
+					{{user.abbrev}}
+				</p>
+				<span class="text-center block text-s mt-1 font-bold user-text-light">
+					☀︎{{user.position}}
+				</span>
+			</div>
+		{{/each}}
+	</div>
 
-{{outlet}}
+	{{outlet}}
+</div>
