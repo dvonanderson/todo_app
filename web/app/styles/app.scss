@@ -1,2 +1,31 @@
+$base-color: #DAD2D8;
+
+// Logo SVG
+.cls-1{
+	fill:#fb8a8a;
+}
+
+.cls-2{
+	fill:#f85959;
+}
+
+.cls-3{
+	font-size:16px;
+	fill:#f95959;
+	font-family:Raleway-ExtraBold, Raleway;
+	font-weight:800;
+	letter-spacing:0.1em;
+}
+.cls-4{
+	letter-spacing:0.04em;
+}
+
+// Todos Background Color
+.todo-bg {
+	background-color: lighten( $base-color, 8% )
+}
+
+
+
 @import 'tailwind';
 

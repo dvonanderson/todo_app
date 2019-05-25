@@ -45,6 +45,7 @@
     "ember-qunit": "^3.4.1",
     "ember-resolver": "^5.0.1",
     "ember-source": "~3.9.0",
+    "ember-svg-jar": "^1.2.2",
     "eslint-plugin-ember": "^5.2.0",
     "graphql": "^14.3.0",
     "graphql-tag": "^2.10.1",

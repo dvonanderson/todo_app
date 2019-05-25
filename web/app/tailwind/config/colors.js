@@ -28,7 +28,9 @@ export default {
   'white': '#ffffff',
 
   'user-back': '#B0C7BD',
+  'user-icon-back': '#1abc9c',
   'user-back-2': '#607D8B',
-  'user-text-light': '#7d777d',
+  'user-light': '#7D777D',
   'playground': '#D9FFF8',
+  'nav-back': '#DAD2D8'
 };
