@@ -25,5 +25,9 @@ $base-color: #DAD2D8;
 	background-color: lighten( $base-color, 8% )
 }
 
+//UL LI Styles
+#todo-list{
+	list-style-type: none;
+}
 @import 'tailwind';
 

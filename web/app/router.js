@@ -1,3 +1,4 @@
+
 import EmberRouter from '@ember/routing/router';
 import config from './config/environment';
 
@@ -7,7 +8,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('todos', { path: '/' }, function() {
+	this.route('index', { path: '/'})
+  this.route('todos', function() {
+  	this.route('index', { path: '/'});
     this.route('create');
   });
 });

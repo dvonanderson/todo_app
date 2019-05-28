@@ -1,12 +1,8 @@
 query {
 	allTodos {
 		id
-		title
 		description
-		createdBy
 		createdAt
-		updatedBy
-		updatedAt
 		completed
 	}
 }

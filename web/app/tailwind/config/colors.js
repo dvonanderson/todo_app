@@ -27,8 +27,11 @@ export default {
   'grey-lightest': '#f8fafc',
   'white': '#ffffff',
   'gray-100': '#f7fafc',
+  'gray-200': 'edf2f7',
   'gray-800': '#2d3748',
   'gray-400': '#cbd5e0',
+  'gray-700': '#4a5568',
+
 
   'user-back': '#B0C7BD',
   'user-icon-back': '#1abc9c',
