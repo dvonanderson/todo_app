@@ -1,7 +1,6 @@
-<div class="bg-playground w-64 p-4">
-	Todo Playground
-</div>
-
-<div class="bg-grey-200 flex-grow p-4">
-	Todos
-</div>
+{{#each model as |todo index|}}
+	<div class="six-point max-w-sm mx-auto bg-white h-24 mb-3 shadow-inner">
+	  <p class="text-xl">Title: {{todo.title}} </p>
+	  <p class="text-xl">Description: {{todo.description}} </p>
+	</div>
+{{/each}}

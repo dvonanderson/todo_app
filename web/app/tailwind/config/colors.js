@@ -32,5 +32,9 @@ export default {
   'user-back-2': '#607D8B',
   'user-light': '#7D777D',
   'playground': '#D9FFF8',
-  'nav-back': '#DAD2D8'
+  'nav-back': '#DAD2D8',
+
+
+  'hatch-base': '#f85959',
+  'hatch-secondary': '#fb8a8a'
 };
