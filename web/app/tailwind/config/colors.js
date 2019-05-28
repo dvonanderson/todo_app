@@ -26,6 +26,9 @@ export default {
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
   'white': '#ffffff',
+  'gray-100': '#f7fafc',
+  'gray-800': '#2d3748',
+  'gray-400': '#cbd5e0',
 
   'user-back': '#B0C7BD',
   'user-icon-back': '#1abc9c',
