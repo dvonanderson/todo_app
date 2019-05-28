@@ -1,6 +1,7 @@
 query {
 	allTodos {
 		id
+		title
 		description
 		createdAt
 		completed

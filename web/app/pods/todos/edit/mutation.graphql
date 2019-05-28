@@ -1,0 +1,7 @@
+mutation EditTodo($title: String!, $description: String!) {
+	editTodo(description: $description, title: $title) {
+		todo{
+			id
+		}
+	}
+}

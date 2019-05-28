@@ -29,5 +29,30 @@ $base-color: #DAD2D8;
 #todo-list{
 	list-style-type: none;
 }
+
+//Todos
+#todo-title {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+//SVGs
+.checkmark path:hover{
+	fill: #5aaa80;
+}
+
+.destroy path:hover{
+	fill: #f42c04;
+}
+
+.checkmark:hover{
+	height: 80px;
+	width: 80px;
+}
+.destroy:hover{
+	height: 70px;
+	width: 70px;
+}
+
 @import 'tailwind';
 

@@ -40,6 +40,10 @@ export default {
   'playground': '#D9FFF8',
   'nav-back': '#DAD2D8',
 
+  'checkmark-green': '#5aaa80',
+  'bg-red-600': '#e53e3e',
+  
+
 
   'hatch-base': '#f85959',
   'hatch-secondary': '#fb8a8a'

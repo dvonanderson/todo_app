@@ -39,7 +39,10 @@
 		<h1 class="text-center mb-3 text-myxl text-hatch-base">Todos</h1>
 
 		<div class="flex justify-between mb-4">
-			{{link-to  "Edit Todos" "todos.create" 
+			{{link-to  "Edit Todos" "todos.edit" 
+				class="bg-white hover:bg-hatch-secondary text-gray-800 font-semibold py-2 px-4 border-gray-400 rounded shadow no-underline"
+			}}
+			{{link-to  "My Todos" "todos" 
 				class="bg-white hover:bg-hatch-secondary text-gray-800 font-semibold py-2 px-4 border-gray-400 rounded shadow no-underline"
 			}}
 			{{link-to  "Create Todos" "todos.create" 

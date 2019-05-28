@@ -1,23 +1,9 @@
 {{#each model as |todo index|}}
 	<div class="w-full flex content-center mb-3">
 
-		<div class="w-8 text-center align-middle mr-3">
-			{{svg-jar "check"
-				width="30px"
-				height="40px"
-			}}
-		</div>
-
-		<div class="w-full">
-			{{textarea value=todo.description class="w-full"}}
-		</div>
-
-		<div class="w-8 text-center ml-3 align-middle">
-			{{svg-jar "close" 
-				width="30px" 
-				height="40px"
-			}}
+		<div class="w-full bg-white border-l-8 border-hatch-secondary p-4 shadow" role="alert">
+			<p class="font-bold mb-1 text-hatch-base" id="todo-title">{{todo.title}}</p>
+			<p>{{todo.description}}</p>
 		</div>
 	</div>
-	
 {{/each}}
