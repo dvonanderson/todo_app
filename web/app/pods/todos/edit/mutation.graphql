@@ -1,7 +1,10 @@
-mutation EditTodo($title: String!, $description: String!) {
-	editTodo(description: $description, title: $title) {
+mutation EditTodo($id: ID!, $title: String!, $description: String!) {
+	editTodo(id: $id, description: $description, title: $title) {
 		todo{
 			id
+			title
+			updatedAt
+			description
 		}
 	}
 }

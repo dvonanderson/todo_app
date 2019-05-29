@@ -41,7 +41,11 @@ export default {
   'nav-back': '#DAD2D8',
 
   'checkmark-green': '#5aaa80',
-  'bg-red-600': '#e53e3e',
+  'red-200': '#fed7d7',
+  'red-600': '#e53e3e',
+  'red-800': '#9b2c2c',
+  'green-600': '#38a169',
+  'green-800': '#276749',
   
 
 
